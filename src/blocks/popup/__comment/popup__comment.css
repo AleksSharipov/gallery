@@ -1,0 +1,17 @@
+.popup__comment {
+  width: 300px;
+  background-color: #fff;
+  min-height: 300px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  /* margin-bottom: auto; */
+}
+
+@media screen and (max-width: 769px) {
+  .popup__comment {
+    width: calc(100% - 80px);
+    /* position: static; */
+  }
+}

@@ -1,0 +1,36 @@
+.popup__img {
+  /* max-width: 75vw; */
+  /* max-height: 75vh; */
+  box-sizing: border-box;
+  overflow: hidden;
+  object-fit: cover;
+  min-height: 299px;
+  /* margin-left: auto; */
+  height: 500px;
+  /* background-color: rgb(212, 212, 212); */
+}
+
+@media screen and (max-width: 854px) {
+  .popup__img {
+    max-width: 100%;
+    min-height: 0;
+    width: 100%;
+    object-fit: contain;
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .popup__img {
+    max-width: 100%;
+    max-height: 50%;
+    min-height: 0;
+    height: 250px;
+    width: 100%;
+    /* width: calc(100% - 80px); */
+    /* position: relative;
+     */
+    object-fit: contain;
+    background-color: rgb(255, 255, 255);
+  }
+}

@@ -1,0 +1,6 @@
+.btn__like {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../images/like.svg');
+  cursor: pointer;
+}

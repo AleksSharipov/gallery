@@ -1,0 +1,6 @@
+.btn__like_active {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../../images/likeActive.svg');
+  cursor: pointer;
+}

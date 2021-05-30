@@ -1,0 +1,14 @@
+.card__element {
+  padding: 10px;
+  /* background-color: rgb(243, 243, 243); */
+  max-width: 500px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-height: auto;
+  border-radius: 10px;
+  max-height: 250px;
+  /* border: 1px solid grey; */
+  box-shadow: 4px 3px 18px 0px rgba(0, 0, 0, 0.137);
+}

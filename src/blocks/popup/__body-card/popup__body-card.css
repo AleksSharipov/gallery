@@ -1,0 +1,22 @@
+.popup__body-card {
+  background: none;
+  max-width: 480px;
+  width: auto;
+  color: white;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .popup__body-card {
+    max-width: calc(100% - 80px);
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .popup__body-card {
+    width: calc(100% - 38px);
+    margin: 0 auto;
+  }
+}

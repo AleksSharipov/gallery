@@ -1,0 +1,7 @@
+.btn__msg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../../images/comment.svg');
+  cursor: pointer;
+  /* margin-left: auto; */
+}

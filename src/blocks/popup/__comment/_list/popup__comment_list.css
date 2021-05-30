@@ -1,0 +1,9 @@
+.popup__comment_list {
+  /* align-self: stretch; */
+  min-height: 100px;
+  word-wrap: break-word;
+  padding: 10px;
+  overflow-y: auto;
+  /* flex-grow: 0; */
+  /* max-height: inherit; */
+}
