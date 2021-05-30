@@ -42,8 +42,6 @@ function App() {
         card={showCard}
         onClose={closePopup}
         cardAddComment={cardAddComment}
-        // prevComment={prevComment}
-        // setPrevComment={setPrevComment}
       />
     </div>
   );
